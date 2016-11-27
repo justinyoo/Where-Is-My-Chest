@@ -23,7 +23,9 @@
       <div class="form-group">
         <label>Possible Sequences</label>
         <div>
-          <span v-for="sequence in sequences" v-bind:class="sequence.cssClass">{{ sequence.value }}</span>
+          <p v-for="sequenceItem in sequences">
+            <span v-for="sequence in sequenceItem" v-bind:class="sequence.cssClass">{{ sequence.value }}</span>
+          </p>
         </div>
       </div>
     </div>
@@ -44,6 +46,7 @@
   <script src="//unpkg.com/vue/dist/vue.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jinq/1.6.1/jinqjs.min.js"></script>
   <script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
-  <script src="js/app.min.js?v=20161127"></script>
+  <script src="js/chests.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
