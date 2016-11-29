@@ -11,7 +11,8 @@
   {
     "outputFileName": "wwwroot/js/app.min.js",
     "inputFiles": [
-      "wwwroot/js/chests.js",
+      "wwwroot/js/chestCycle.js",
+      "wwwroot/js/chest.js",
       "wwwroot/js/app.js"
     ],
     // Optionally specify minification options

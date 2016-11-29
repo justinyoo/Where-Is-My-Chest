@@ -37,6 +37,18 @@ textarea {
   }
 }
 
+.horizontal-scrollable {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.white {
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+  background-color: white;
+}
+
 .silver {
   display: inline-block;
   width: 15px;
