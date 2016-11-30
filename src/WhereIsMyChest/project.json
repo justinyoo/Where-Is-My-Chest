@@ -59,6 +59,7 @@
   },
 
   "scripts": {
+    "postcompile": [ "xcopy wwwroot\\*.* ..\\..\\doc\\ /y /e" ],
     "prepublish": [ "bower install", "dotnet bundle" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }
