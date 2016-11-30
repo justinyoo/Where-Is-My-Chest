@@ -42,6 +42,12 @@ textarea {
   overflow-y: hidden;
 }
 
+.nothing {
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+}
+
 .white {
   display: inline-block;
   width: 15px;
